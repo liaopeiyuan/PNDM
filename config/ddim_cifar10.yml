@@ -46,9 +46,7 @@ Optim:
   grad_clip: 1.0
 
 Sample:
-  mpi4py: true
+  mpi4py: false
   batch_size: 512
   last_only: True
   total_num: 12500
-
-

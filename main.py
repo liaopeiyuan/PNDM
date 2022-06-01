@@ -66,7 +66,7 @@ if __name__ == "__main__":
     args, config = args_and_config()
 
     if args.runner == 'sample' and config['Sample']['mpi4py']:
-        from mpi4py import MPI
+        #from mpi4py import MPI
 
         comm = MPI.COMM_WORLD
         mpi_rank = comm.Get_rank()
